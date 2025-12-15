@@ -15,11 +15,12 @@
 <body>
 
   <div class="contact-section">
-    <h2>Kontak Kami</h2>
-    <p>Isi form berikut untuk mengirim pesan kepada kami:</p>
+    <h2>Kontak Saya</h2>
+    <p>Isi form berikut untuk mengirim pesan :</p>
 
     <!-- Form Netlify -->
-    <form name="contact" netlify>
+    <form name="contact" method="POST" action="/success.html" netlify>
+
       <!-- Field tersembunyi untuk Netlify bot detection -->
       <input type="hidden" name="form-name" value="contact">
 
